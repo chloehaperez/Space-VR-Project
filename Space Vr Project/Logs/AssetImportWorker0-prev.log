@@ -1,0 +1,1166 @@
+Unity Editor version:    2022.3.22f1 (887be4894c44)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/chloearacheskiperez/Space-Vr-Project/Space Vr Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58936
+Successfully changed project path to: /Users/chloearacheskiperez/Space-Vr-Project/Space Vr Project
+/Users/chloearacheskiperez/Space-Vr-Project/Space Vr Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704375781312] Host "[IP] 10.150.107.193 [Port] 0 [Flags] 2 [Guid] 3360474619 [EditorId] 3360474619 [Version] 1048832 [Id] OSXEditor(0,Chloes-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704375781312] Host "[IP] 10.150.107.193 [Port] 0 [Flags] 2 [Guid] 3360474619 [EditorId] 3360474619 [Version] 1048832 [Id] OSXEditor(0,Chloes-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 26.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/chloearacheskiperez/Space-Vr-Project/Space Vr Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56613
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.009945 seconds.
+- Loaded All Assemblies, in  0.743 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 164 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1575ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (738ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (485ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.158 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.066 seconds
+Domain Reload Profiling: 2225ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (813ms)
+		LoadAssemblies (600ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (262ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1067ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (652ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.2 KB). Loaded Objects now: 3562.
+Memory consumption went from 131.8 MB to 131.8 MB.
+Total: 4.019675 ms (FindLiveObjects: 0.244137 ms CreateObjectMapping: 0.195243 ms MarkObjects: 3.380966 ms  DeleteObjects: 0.189862 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139572.914838 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(31cfdcd42516541c185e2274e3b7c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(31cfdcd42516541c185e2274e3b7c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bba69a8c6cbaa829aca6340d4494bb3') in 0.003066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 166.934999 seconds.
+  path: Assets/Prefabs/planet-afroditi
+  artifactKey: Guid(8f8d36d3c64084d95ba21765f0fa5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/planet-afroditi using Guid(8f8d36d3c64084d95ba21765f0fa5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad361c611ec977633d7dd53c0abfb7a') in 0.043867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.401933 seconds.
+  path: Assets/Prefabs/planet-afroditi/textures
+  artifactKey: Guid(b9f851357e53a4e6c98a77bab0c64711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/planet-afroditi/textures using Guid(b9f851357e53a4e6c98a77bab0c64711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ddf969de7d7ab319f5c9c55293f13a') in 0.006030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.104686 seconds.
+  path: Assets/Prefabs/planet-afroditi/source
+  artifactKey: Guid(a34a5ccb09cae416fae024476aaaede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/planet-afroditi/source using Guid(a34a5ccb09cae416fae024476aaaede9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9e2b35ebbc9b3cb7faf35d9636697b') in 0.002651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.742604 seconds.
+  path: Assets/Prefabs/purple-planet
+  artifactKey: Guid(df33e1fb598034e05a07f35e890d3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet using Guid(df33e1fb598034e05a07f35e890d3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0572f205a1b8566981b164d417e5ea5f') in 0.002949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.031863 seconds.
+  path: Assets/Prefabs/purple-planet/source
+  artifactKey: Guid(6da594597b31e4c009f1641ddb2b67bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source using Guid(6da594597b31e4c009f1641ddb2b67bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38bf75fe7c3d575e11f4f9a4cb557ae') in 0.002397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073085 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe51365bd773cfa73246f26e8e7392b') in 0.836021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 201.276881 seconds.
+  path: Assets/Materials/DiverseSpace
+  artifactKey: Guid(d7119a0b13b1b466386ed63282135061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DiverseSpace using Guid(d7119a0b13b1b466386ed63282135061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b17c2c0cacab02dc198362b7ded6d37') in 0.037138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.799764 seconds.
+  path: Assets/Materials/DiverseSpace/Material
+  artifactKey: Guid(c9a7b5bd2addc4f6b85b4592d7a58e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DiverseSpace/Material using Guid(c9a7b5bd2addc4f6b85b4592d7a58e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1657f91d6a6b10d6d1ccd4124ec6778b') in 0.007572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055914 seconds.
+  path: Assets/Materials/DiverseSpace/Material/DiverseSpaceMaterial.mat
+  artifactKey: Guid(a4be220830e90ea4eb88b48b7fd376ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/DiverseSpace/Material/DiverseSpaceMaterial.mat using Guid(a4be220830e90ea4eb88b48b7fd376ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f64c4ba4715eb5cccb41741abfc9cc') in 1.930793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.368 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.893 seconds
+Domain Reload Profiling: 7264ms
+	BeginReloadAssembly (466ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (198ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (864ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (5895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (187ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (2140ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 5.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3609.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 6.208728 ms (FindLiveObjects: 0.251168 ms CreateObjectMapping: 0.156241 ms MarkObjects: 5.724085 ms  DeleteObjects: 0.075387 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.000 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.208 seconds
+Domain Reload Profiling: 6209ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (108ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (678ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (5209ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (188ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (2177ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 4.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3612.
+Memory consumption went from 149.8 MB to 149.8 MB.
+Total: 11.857845 ms (FindLiveObjects: 1.091016 ms CreateObjectMapping: 0.407398 ms MarkObjects: 10.260142 ms  DeleteObjects: 0.097314 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 140.248794 seconds.
+  path: Assets/Prefabs/dark-star/source
+  artifactKey: Guid(19e7931bfd61b40efa3dbfbc6c49e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/source using Guid(19e7931bfd61b40efa3dbfbc6c49e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd678df2db2bc275c7d7a681fd4f340ca') in 0.003001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042947 seconds.
+  path: Assets/Prefabs/dark-star/source/blackhole test.blend
+  artifactKey: Guid(86cd9ab8d95664bc38c405946d4f1d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/source/blackhole test.blend using Guid(86cd9ab8d95664bc38c405946d4f1d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c712176434d006024243798465ee2629') in 1.136729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 14.034015 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds0_diff.tga.png
+  artifactKey: Guid(0d62d000d6ca8456ab57f5bb6019ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds0_diff.tga.png using Guid(0d62d000d6ca8456ab57f5bb6019ebc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85149ef7bae18786f56d5ffacffa188') in 0.059881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds0_norm.tga.png
+  artifactKey: Guid(d68da763aa2a54267b3cccfe6bdbf2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds0_norm.tga.png using Guid(d68da763aa2a54267b3cccfe6bdbf2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cb9dea0c10585530ba3491bd357d62') in 0.017086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds1_norm.tga.png
+  artifactKey: Guid(cd2900fa5fe4d4dd8bcf3dc0b5f315bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds1_norm.tga.png using Guid(cd2900fa5fe4d4dd8bcf3dc0b5f315bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64545ff934c5906d7adca729df54cb4') in 0.019631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Prefabs/purple-planet/textures/surface_diff.tga.png
+  artifactKey: Guid(957f6ec21a9a846f294fa446823ef928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/surface_diff.tga.png using Guid(957f6ec21a9a846f294fa446823ef928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dff3a37aef11f1d374f98c888acc2c') in 0.016336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds1_diff.tga.png
+  artifactKey: Guid(32201f6ae1c83427f87584455f3b4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds1_diff.tga.png using Guid(32201f6ae1c83427f87584455f3b4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c013c0411cd8e21ad5a456c66202a9a7') in 0.038415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.744338 seconds.
+  path: Assets/Prefabs/purple-planet/textures/surface_norm.tga.png
+  artifactKey: Guid(c1918012afc4c476f8fbf23211854430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/surface_norm.tga.png using Guid(c1918012afc4c476f8fbf23211854430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d207453a210a14d6f10caad70a83b79') in 0.017418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000938 seconds.
+  path: Assets/Prefabs/purple-planet/textures/surface_spec.tga.png
+  artifactKey: Guid(98bd95e8d00ab478bbb0ef1d1127d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/surface_spec.tga.png using Guid(98bd95e8d00ab478bbb0ef1d1127d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d69c7e956a61878106acbb8ca894f6') in 0.024734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 577.729902 seconds.
+  path: Assets/Prefabs/planet-with-asteroid-belt/source/planet_asteroids.blend
+  artifactKey: Guid(d8c4b1fbb18ac4dfe8087cc872a90088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/planet-with-asteroid-belt/source/planet_asteroids.blend using Guid(d8c4b1fbb18ac4dfe8087cc872a90088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411187b6378518831470e86627842855') in 16.330958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3762
+========================================================================
+Received Import Request.
+  Time since last request: 19.945704 seconds.
+  path: Assets/Prefabs/purple-planet/textures/New Physic Material.physicMaterial
+  artifactKey: Guid(cdd2904fe06fc4cd78a2875b1bd89c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/New Physic Material.physicMaterial using Guid(cdd2904fe06fc4cd78a2875b1bd89c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d7a6ef9d7d79319f6da419157dbec2') in 0.040618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.449324 seconds.
+  path: Assets/Prefabs/purple-planet/textures/New Material.mat
+  artifactKey: Guid(d3665a8cba6ec47af8262f458f75e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/New Material.mat using Guid(d3665a8cba6ec47af8262f458f75e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e6a1f6f98a9ed922b0320b4662abd') in 0.020666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 388.618131 seconds.
+  path: Assets/Prefabs/purple-planet/textures/Clouds0.mat
+  artifactKey: Guid(d3665a8cba6ec47af8262f458f75e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/Clouds0.mat using Guid(d3665a8cba6ec47af8262f458f75e7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211df8d1a09f7370fe831db6db791d9c') in 1.086288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 157.525924 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds1.mat
+  artifactKey: Guid(29186e1e3184a46e3b9c0c3e1ad1f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds1.mat using Guid(29186e1e3184a46e3b9c0c3e1ad1f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7653e89811a9feefb2776261708353') in 0.174935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 69.658478 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243d0636c206562a9b9dd5d54a27e455') in 0.232768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 27.156799 seconds.
+  path: Assets/Prefabs/purple-planet/textures/purpleplanet.mat
+  artifactKey: Guid(666d0e890ee624f36b0be5df0a1458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/purpleplanet.mat using Guid(666d0e890ee624f36b0be5df0a1458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bfaea22f2b3acdbc7add4b7454baeb') in 0.029567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 54.932045 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a764aba55db4ccad3747782698b4786') in 0.163691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 29.034357 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f46d82af2e01a457514c95552922049') in 0.193878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 9.542157 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0421a228ec80b7e4e8e2df51b810baa1') in 0.163485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 54.563530 seconds.
+  path: Assets/Prefabs/purple-planet/textures/clouds1.mat
+  artifactKey: Guid(29186e1e3184a46e3b9c0c3e1ad1f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/clouds1.mat using Guid(29186e1e3184a46e3b9c0c3e1ad1f5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed73d0e7a1c852565fa865d1935a35f5') in 0.041947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Prefabs/purple-planet/textures/purpleplanet.mat
+  artifactKey: Guid(666d0e890ee624f36b0be5df0a1458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/purpleplanet.mat using Guid(666d0e890ee624f36b0be5df0a1458fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eff15c067f420c92ae94355feab4b5f') in 0.023040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.460 seconds
+Refreshing native plugins compatible for Editor in 6.14 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.695 seconds
+Domain Reload Profiling: 10178ms
+	BeginReloadAssembly (774ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (287ms)
+	RebuildCommonClasses (205ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (146ms)
+	LoadAllAssembliesAndSetupDomain (1296ms)
+		LoadAssemblies (1522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (34ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (60ms)
+	FinalizeReload (7698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3216ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (374ms)
+			SetLoadedEditorAssemblies (26ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (247ms)
+			ProcessInitializeOnLoadAttributes (2447ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 7.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3618.
+Memory consumption went from 157.5 MB to 157.5 MB.
+Total: 21.543190 ms (FindLiveObjects: 1.015660 ms CreateObjectMapping: 0.336921 ms MarkObjects: 19.064609 ms  DeleteObjects: 1.123847 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.822 seconds
+Refreshing native plugins compatible for Editor in 2.65 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.850 seconds
+Domain Reload Profiling: 4673ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (466ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2965ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (2500ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3621.
+Memory consumption went from 166.8 MB to 166.8 MB.
+Total: 9.771088 ms (FindLiveObjects: 0.449042 ms CreateObjectMapping: 0.191748 ms MarkObjects: 9.028350 ms  DeleteObjects: 0.100039 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 750.401783 seconds.
+  path: Assets/Prefabs/purple-planet/textures/cloud0shader.shader
+  artifactKey: Guid(475bb2b9108644de48aaf56ae5cd4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/cloud0shader.shader using Guid(475bb2b9108644de48aaf56ae5cd4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4993bdb2ca4708f4469c620e5f158606') in 0.691594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.202 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.600 seconds
+Domain Reload Profiling: 6816ms
+	BeginReloadAssembly (644ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (289ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1368ms)
+		LoadAssemblies (994ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (607ms)
+			TypeCache.Refresh (463ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (96ms)
+			ResolveRequiredComponents (38ms)
+	FinalizeReload (4608ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (179ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (265ms)
+			ProcessInitializeOnLoadAttributes (1759ms)
+			ProcessInitializeOnLoadMethodAttributes (374ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 12.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4175 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.1 MB). Loaded Objects now: 4697.
+Memory consumption went from 203.2 MB to 202.2 MB.
+Total: 12.611563 ms (FindLiveObjects: 0.445971 ms CreateObjectMapping: 0.394836 ms MarkObjects: 10.555489 ms  DeleteObjects: 1.213156 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435.580608 seconds.
+  path: Assets/Prefabs/purple-planet/textures/cloud0ShaderGraph.shadergraph
+  artifactKey: Guid(ab42b09da40844f87b8994775be3a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/cloud0ShaderGraph.shadergraph using Guid(ab42b09da40844f87b8994775be3a064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b264b8ba03e98c3573ff10801be73cd2') in 4.787702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2547.327619 seconds.
+  path: Assets/Prefabs/purple-planet/textures/New Render Texture.renderTexture
+  artifactKey: Guid(385356b5d481b40338c4f337127f63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/New Render Texture.renderTexture using Guid(385356b5d481b40338c4f337127f63e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bd0ae1d336d73ad238d006e0a0c2c5') in 1.770217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 683.046995 seconds.
+  path: Assets/Prefabs/purple-planet/textures/Shader Graphs_cloud0ShaderGraph.mat
+  artifactKey: Guid(444d199a8a43942b982731af511b63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/Shader Graphs_cloud0ShaderGraph.mat using Guid(444d199a8a43942b982731af511b63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332b6c9a5f8a71edb618096f67dc8978') in 3.523860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 21.208215 seconds.
+  path: Assets/Prefabs/purple-planet/textures/Cloud0Material.mat
+  artifactKey: Guid(444d199a8a43942b982731af511b63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/Cloud0Material.mat using Guid(444d199a8a43942b982731af511b63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068276bfa377b5139634ef58e727b6d1') in 0.095619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 88.911420 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88b7f00d95bff305b20a0c42a63d3c8') in 1.423623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 29.304559 seconds.
+  path: Assets/Prefabs/purple-planet/textures/Cloud1ShaderGraph.shadergraph
+  artifactKey: Guid(b8220d471ac1446b0a439b349b6af31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/textures/Cloud1ShaderGraph.shadergraph using Guid(b8220d471ac1446b0a439b349b6af31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff123865d8c5db90ff94eb20a2aa21c') in 1.667316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 415.179360 seconds.
+  path: Assets/Prefabs/purple-planet/source/PurplePlanet.blend
+  artifactKey: Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/purple-planet/source/PurplePlanet.blend using Guid(a5b575b43d33e4af8904e81921c44f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16dad6d0ae44f74736192480e5a05899') in 0.821158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 58.280021 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01
+  artifactKey: Guid(1369f4b07cd284d76b5cd0b10df7446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01 using Guid(1369f4b07cd284d76b5cd0b10df7446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9869a4c8c2e2bc13c43097d2395b709d') in 0.017102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.103095 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.obj
+  artifactKey: Guid(c2d7f7402e92c4cfba5bb53ee14d91da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.obj using Guid(c2d7f7402e92c4cfba5bb53ee14d91da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5baedc8a3a489888661582a2a9333') in 1.047543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008.jpg
+  artifactKey: Guid(1c0997e1860454f5d9dae465c4397daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008.jpg using Guid(1c0997e1860454f5d9dae465c4397daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b371f5f38327d564ece2e810573340') in 0.252105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004_b.png
+  artifactKey: Guid(d71299ba32bed433696fdad5bf6c267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004_b.png using Guid(d71299ba32bed433696fdad5bf6c267c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b2655106a4a2c5e8edf119870613c7') in 0.021686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006_b.png
+  artifactKey: Guid(2319d8f3709f34c26a1f4678ef76d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006_b.png using Guid(2319d8f3709f34c26a1f4678ef76d345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c611ff80b76b00dd0b30e30f567376') in 0.019736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000591 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002.jpg
+  artifactKey: Guid(add295807f746412aa7a240924b7545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002.jpg using Guid(add295807f746412aa7a240924b7545d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c16a4292df70ccb22489832d5f7de8b') in 0.054182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001428 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005_b.png
+  artifactKey: Guid(807043d147d114e52b9c0e7d2a9815e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005_b.png using Guid(807043d147d114e52b9c0e7d2a9815e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1738dddea0237ece0b20fb54d68896') in 0.033275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001.jpg
+  artifactKey: Guid(d02e4c8f804da4026ba4fe40a579f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001.jpg using Guid(d02e4c8f804da4026ba4fe40a579f403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a082f46070e47a1ef0c114a13f0c501') in 0.043826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008_b.png
+  artifactKey: Guid(b1e84eccf19c74abc918eca7dc21a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008_b.png using Guid(b1e84eccf19c74abc918eca7dc21a2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9ff4423f83337443651d5cfe373f4') in 0.029166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002_b.png
+  artifactKey: Guid(52156fbb7be894b199978369bfbef1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002_b.png using Guid(52156fbb7be894b199978369bfbef1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e166b3d46e0280bc65140c732419f465') in 0.024448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006.jpg
+  artifactKey: Guid(f5076cae97c9248a589f7daa6e93872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006.jpg using Guid(f5076cae97c9248a589f7daa6e93872d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26268f626e88e97d17430392427a58') in 0.025233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005.jpg
+  artifactKey: Guid(9ec3b3b0d5b204463b16512edb506e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005.jpg using Guid(9ec3b3b0d5b204463b16512edb506e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d179e3ba242fd92c424fd8723c2b135') in 0.028441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007_b.png
+  artifactKey: Guid(72c617c8a27c94d1a9a54353494bf3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007_b.png using Guid(72c617c8a27c94d1a9a54353494bf3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d61811fa4049ae79489177e2ee71d6d') in 0.043652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003.jpg
+  artifactKey: Guid(e248455b1570d4c9491c1e03244479b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003.jpg using Guid(e248455b1570d4c9491c1e03244479b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b5c4915c04e79f73d682cc88c84e1d') in 0.020669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003_b.png
+  artifactKey: Guid(fa48d7e9250024158853225b7e3c5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003_b.png using Guid(fa48d7e9250024158853225b7e3c5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401e4d0e8b2bdeee3637ade68383dd0a') in 0.029268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007.jpg
+  artifactKey: Guid(e3743e00f85b34fc183a467eb7eacca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007.jpg using Guid(e3743e00f85b34fc183a467eb7eacca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aaf3640a59c03fc64dff4ac5ef9998') in 0.047452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004.jpg
+  artifactKey: Guid(fbabb4b351fbb4d69b1d4a2f32f6c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004.jpg using Guid(fbabb4b351fbb4d69b1d4a2f32f6c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6e2c9e4d9f2958802d7b9c120917e2') in 0.030629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001_b.png
+  artifactKey: Guid(d1327658e2b2f4641a7ae121daf758b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001_b.png using Guid(d1327658e2b2f4641a7ae121daf758b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1e5b56a475235f161e21e895847411') in 0.027985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 24.328750 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9326e97e2461385864aa44f9e28ada') in 0.019202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 45.675518 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.obj
+  artifactKey: Guid(c2d7f7402e92c4cfba5bb53ee14d91da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.obj using Guid(c2d7f7402e92c4cfba5bb53ee14d91da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1745404a2b02097d84078d11aebba211') in 0.574500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003.mat
+  artifactKey: Guid(ee38faf9dc7b54e9280fb7307ae6ac95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0003.mat using Guid(ee38faf9dc7b54e9280fb7307ae6ac95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7832ba95b48bc50fa50641a9d6664b04') in 0.037792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008782 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006.mat
+  artifactKey: Guid(e4d019ee6799b46d2a3499c58e0f00d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0006.mat using Guid(e4d019ee6799b46d2a3499c58e0f00d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5a2e510cd72fa21c328d485efafd07') in 0.048804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008.mat
+  artifactKey: Guid(c5316da0d7a8f4374b04c7254e14084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0008.mat using Guid(c5316da0d7a8f4374b04c7254e14084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f702cc8f152709784fa90a11a61042') in 0.060423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005.mat
+  artifactKey: Guid(8e7e9f91fcda64579a1599583ecc1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0005.mat using Guid(8e7e9f91fcda64579a1599583ecc1e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55104743727be6096c9fd022a23a850c') in 0.052021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004.mat
+  artifactKey: Guid(c4d27552be14b417fb494f4a8dbd51f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0004.mat using Guid(c4d27552be14b417fb494f4a8dbd51f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0f4880eb35af366cf98e5ef03d04ae') in 0.051957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001730 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001.mat
+  artifactKey: Guid(9894b5f1447e84e00981006f53b5e4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0001.mat using Guid(9894b5f1447e84e00981006f53b5e4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35649b55efe9aab817c4db078dfdd845') in 0.069443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002.mat
+  artifactKey: Guid(0dda5c1b275984f4f953c992e1cfde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0002.mat using Guid(0dda5c1b275984f4f953c992e1cfde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b6c062bdbdb2e0d5f69e523192ad27') in 0.104637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002248 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007.mat
+  artifactKey: Guid(dcf147a82ef314e399262a78aaf89e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/space_asteroids_02_l_0007.mat using Guid(dcf147a82ef314e399262a78aaf89e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549ecb59506350ca88ddd9dcf5d7f01e') in 0.069975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.372861 seconds.
+  path: Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.mtl
+  artifactKey: Guid(a566494d9e637434bbcc4b79c2edbbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/asteroid-field-100-x-low-poly/source/asteroid_03_01/asteroid_03_01.mtl using Guid(a566494d9e637434bbcc4b79c2edbbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d47a98bf39543946c9e8a37b56ebea') in 0.048410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.328770 seconds.
+  path: Assets/Prefabs/dark-star/source/blackhole test.blend
+  artifactKey: Guid(86cd9ab8d95664bc38c405946d4f1d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/source/blackhole test.blend using Guid(86cd9ab8d95664bc38c405946d4f1d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98adbc595882d7ddbd6ed86252559368') in 1.868876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 27.597298 seconds.
+  path: Assets/Prefabs/dark-star/textures/00.mat
+  artifactKey: Guid(107b2924ba5da415d883fc9f7a4c1e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/00.mat using Guid(107b2924ba5da415d883fc9f7a4c1e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf70049a4eb8eb11dee8fe1ebc8fb2d') in 0.107095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Prefabs/dark-star/textures/horizon.mat
+  artifactKey: Guid(4a4ba9364647f46f0baf337dcc0d7104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/horizon.mat using Guid(4a4ba9364647f46f0baf337dcc0d7104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9fb3d818e0c0f57e4a4d1d658c72e9') in 0.047286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Prefabs/dark-star/textures/center.mat
+  artifactKey: Guid(dde13980be2d3489289bf4f7e782fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/center.mat using Guid(dde13980be2d3489289bf4f7e782fd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bf5b0cd39f9a34035228bbdf84759f') in 0.044470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/dark-star/textures/hide.mat
+  artifactKey: Guid(4fc39909ae5624649a6ab5d136354bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/hide.mat using Guid(4fc39909ae5624649a6ab5d136354bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857526c4ab6000aec59255795d4a626f') in 0.030490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Prefabs/dark-star/textures/disc.mat
+  artifactKey: Guid(3dbf1c1ae05f742749100cc3aee7ee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/disc.mat using Guid(3dbf1c1ae05f742749100cc3aee7ee27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b3847798f7683ef04a6d17f494108a') in 0.030168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Prefabs/dark-star/textures/radiation.mat
+  artifactKey: Guid(64a46b133dc4c4f878fccc765df65dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/dark-star/textures/radiation.mat using Guid(64a46b133dc4c4f878fccc765df65dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f1c4f0c9f43bab8ccb407f0ffd20e3') in 0.052548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.762146 seconds.
+  path: Assets/Prefabs/mercury/textures/01_-_Default_baseColor.jpeg
+  artifactKey: Guid(de5730cdd1ba44020862bd1429111680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mercury/textures/01_-_Default_baseColor.jpeg using Guid(de5730cdd1ba44020862bd1429111680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5ac48a206a0e0141810b95fb448268') in 0.831781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003274 seconds.
+  path: Assets/Prefabs/mercury/textures/01_-_Default_normal.png
+  artifactKey: Guid(9fa5baaf9486140428e9df7d291a69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mercury/textures/01_-_Default_normal.png using Guid(9fa5baaf9486140428e9df7d291a69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e9010797f54638cead1cd65bbe60b') in 0.088148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.364213 seconds.
+  path: Assets/Prefabs/mercury/scene.gltf
+  artifactKey: Guid(723297499e13548049fa2870dd8e7828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mercury/scene.gltf using Guid(723297499e13548049fa2870dd8e7828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3240eb26cc2488717692ed22b459f8d8') in 0.010280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
