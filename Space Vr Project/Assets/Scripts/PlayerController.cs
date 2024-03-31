@@ -5,21 +5,23 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // control speed
+    public static Vector3 pos;
     public float speed = 50f;
     public CharacterController controller;
-    // Start is called before the first frame update
-    void Start()
+    public Transform cam;
+
+    private void Start()
     {
-        
+        pos = gameObject.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        pos = gameObject.transform.position;
+        Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        moveDirection = cam.TransformDirection(moveDirection);
         // direction we want to move
-        Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(moveDirection * speed * Time.deltaTime);
     }
 }

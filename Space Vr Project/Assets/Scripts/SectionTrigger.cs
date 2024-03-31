@@ -12,6 +12,7 @@ public class SectionTrigger : MonoBehaviour
     public GameObject player;
     public Vector3 gridOrigin;
     public GameObject trigger;
+    public Vector3 frontofPlayer;
 
     void Start()
     {
@@ -19,11 +20,21 @@ public class SectionTrigger : MonoBehaviour
         SpawnGrid();
     }
 
+    private void FixedUpdate()
+    {
+        if (Vector3.Distance(gridOrigin, player.transform.position) > 500)
+        {
+            frontofPlayer = transform.position + (transform.forward * 2);
+            gridOrigin = frontofPlayer;
+            SpawnGrid();
+        }
+    }
+
     void SpawnGrid()
     {
-        for (int x = 0; x < gridX/2; x++)
+        for (int x = 0; x < gridX / 2; x++)
         {
-            for (int z = 0; z < gridZ/2; z++)
+            for (int z = 0; z < gridZ / 2; z++)
             {
                 Vector3 spawnPosition = new Vector3(x * gridSpacingOffset, 0, z * gridSpacingOffset) + gridOrigin;
                 PickAndSpawn(RandomizedPosition(spawnPosition), Quaternion.identity);
@@ -35,20 +46,35 @@ public class SectionTrigger : MonoBehaviour
                 PickAndSpawn(RandomizedPosition(spawnPosition4), Quaternion.identity);
             }
         }
-        GameObject leftwall = Instantiate(trigger, new Vector3(gridX / 2, 0, gridZ / 2) + gridOrigin, Quaternion.identity);
-        GameObject rightwall = Instantiate(trigger, gridOrigin - new Vector3(gridX / 2, 0, gridZ / 2), Quaternion.identity);
-        GameObject frontwall = Instantiate(trigger, new Vector3(-gridX / 2, 0, gridZ / 2) + gridOrigin, Quaternion.identity);
-        GameObject backwall = Instantiate(trigger, new Vector3(-gridX / 2, 0, -gridZ / 2) + gridOrigin, Quaternion.identity);
+    }
+
+    Vector3 RandomPoint()
+    {
+        float randomAngle = Random.Range(0f, Mathf.PI * 2f);
+        Vector2 v2 = new Vector2(Mathf.Sin(randomAngle), Mathf.Cos(randomAngle)).normalized;
+        return new Vector3(v2.x * 100, Random.Range(-positionRandomization.y, positionRandomization.y), v2.y * 100);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Trigger"))
+        /*if (other.gameObject.CompareTag("Trigger"))
         {
             gridOrigin = player.transform.position;
             SpawnGrid();
+        }*/
+
+        if (Vector3.Distance(gridOrigin, player.transform.position) > 500)
+        {
+            frontofPlayer = transform.position + (transform.forward * 2);
+            gridOrigin = frontofPlayer;
+            SpawnGrid();
         }
+
+        Destroy(other.gameObject);
+        PickAndSpawn(RandomPoint(), Quaternion.identity);
     }
+
+
 
     Vector3 RandomizedPosition(Vector3 position)
     {

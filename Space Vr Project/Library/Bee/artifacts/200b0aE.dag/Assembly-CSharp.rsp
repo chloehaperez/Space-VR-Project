@@ -365,7 +365,9 @@
 "Assets/Scripts/BoundsCheck.cs"
 "Assets/Scripts/GeneratePlanets.cs"
 "Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/PlanetDestroy.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/SectionTrigger.cs"
 -langversion:9.0
 
 /deterministic

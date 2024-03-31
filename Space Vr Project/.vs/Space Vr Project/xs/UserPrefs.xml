@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{7FDF3C0F-8961-0579-F839-AFA66DD1167D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlanetDestroy.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlanetDestroy.cs" Line="21" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0788df4c-d606-4e5e-ba2c-041a06bdd954" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
