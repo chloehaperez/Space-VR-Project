@@ -368,6 +368,7 @@
 "Assets/Scripts/PlanetDestroy.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SectionTrigger.cs"
+"Assets/spritePos.cs"
 -langversion:9.0
 
 /deterministic

@@ -1,14 +1,18 @@
 ﻿<Properties StartupConfiguration="{7FDF3C0F-8961-0579-F839-AFA66DD1167D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlanetDestroy.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fff8c96-5cd9-43ba-88ed-870f9b6eae8c" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MouseLook.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlanetDestroy.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/PlanetDestroy.cs" />
+      <File FileName="Assets/Scripts/SectionTrigger.cs" Line="66" Column="72" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="21" Column="45" />
+      <File FileName="Assets/Scripts/MouseLook.cs" Line="18" Column="6" />
+      <File FileName="Assets/spritePos.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0788df4c-d606-4e5e-ba2c-041a06bdd954" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

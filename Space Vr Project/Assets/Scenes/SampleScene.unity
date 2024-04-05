@@ -123,6 +123,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &665407276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7339827535384094405, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+  m_PrefabInstance: {fileID: 5489165351027544512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &665407279
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665407276}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: -623603649343465320, guid: ceb90ea6ce1b54c37a366d68ebed0d9b, type: 3}
+  m_Animations:
+  - {fileID: -623603649343465320, guid: ceb90ea6ce1b54c37a366d68ebed0d9b, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +272,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1220887343819266429, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 665407279}
+    - target: {fileID: 1220887343819266429, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+      propertyPath: speed
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       propertyPath: positionRandomization.x
       value: 100
@@ -261,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       propertyPath: itemsToPickFrom.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       propertyPath: itemsToPickFrom.Array.data[0]
@@ -270,7 +299,15 @@ PrefabInstance:
     - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       propertyPath: itemsToPickFrom.Array.data[1]
       value: 
-      objectReference: {fileID: 919132149155446097, guid: a5b575b43d33e4af8904e81921c44f70, type: 3}
+      objectReference: {fileID: 1123243791319946, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
+    - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+      propertyPath: itemsToPickFrom.Array.data[2]
+      value: 
+      objectReference: {fileID: 4802734402055905195, guid: 5bfde2993b71540c9808548b67490bd9, type: 3}
+    - target: {fileID: 1623481170171417855, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+      propertyPath: itemsToPickFrom.Array.data[3]
+      value: 
+      objectReference: {fileID: 4802734402055905195, guid: 5bfde2993b71540c9808548b67490bd9, type: 3}
     - target: {fileID: 6553357702583911041, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       propertyPath: m_Name
       value: Player
@@ -335,6 +372,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6553357702583911041, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1811817446}
+    - targetCorrespondingSourceObject: {fileID: 7339827535384094405, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 665407279}
   m_SourcePrefab: {fileID: 100100000, guid: 810a518e6a79143fa8d2b62b928e6994, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
